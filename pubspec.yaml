@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   domain:
-    path: "../domain"
+    path: "../shadowkeep-domain"
 
 dev_dependencies:
   flutter_test:
