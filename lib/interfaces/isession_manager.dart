@@ -4,6 +4,7 @@ abstract class ISessionManager {
   late String customerAccessToken;
   late int selectedLocation;
   late String protoToken;
+  late int bookId;
 
   //Disposable after login !!! don't reference elsewhere
   late String username;
