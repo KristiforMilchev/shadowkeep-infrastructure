@@ -6,4 +6,6 @@ abstract class ICharacterService {
   Future<bool> removeCharacter(int characterId);
   Future<List<Character>> getRelatedCharacters(int bookId);
   Future<List<Chapter>> getMentions(int id);
+
+  Future<List<Character>> getEncounters(int characterId, int bookId);
 }
