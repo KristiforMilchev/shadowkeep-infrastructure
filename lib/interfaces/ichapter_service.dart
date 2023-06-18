@@ -8,6 +8,6 @@ abstract class IChapterService {
   Future<bool> deleteChapter(Chapter chapter);
   Future<List<BookPage>> getPages(int chapterId);
   Future<List<Chapter>> getChaptersIncludingCharacter(List<int> characters);
-
   Future<List<Chapter>> getAllChapters(int bookId);
+  Future<bool> canAdd(int id);
 }
